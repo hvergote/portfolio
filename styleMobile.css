@@ -68,7 +68,7 @@ html {
 }
 
 nav {
-    display: block;
+    display: none;
     position: fixed;
     bottom: 4rem;
     right: 1em;

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    --wit: rgb(255, 255, 255);
+    --lichtblauw: rgb(105, 115, 136);
+    --blauw: rgb(44, 66, 113);
+    --groen: rgb(110, 147, 88);
+    font-family: 'Anonymous Pro', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

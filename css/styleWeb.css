@@ -1,0 +1,90 @@
+@import "basic.css";
+* {
+    font-family: 'Anonymous Pro', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#fixed-nav {
+    background-color: var(--lichtblauw);
+    position: fixed;
+    width: 20em;
+    height: 100vh;
+    text-align: center;
+}
+
+nav {
+    margin-top: 3em;
+}
+
+nav ul {
+    display: grid;
+    gap: 2em;
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color: var(--wit);
+    font-size: 1em;
+}
+
+a:hover {
+    color: var(--baluw);
+}
+
+li {
+    list-style: none;
+}
+
+#home {
+    margin-top: 0.8rem;
+    color: var(--wit);
+    font-size: 2.3em;
+}
+
+.ik {
+    position: fixed;
+    bottom: 1em;
+    left: 5em;
+    background-color: var(--groen);
+    padding: 5em;
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+}
+
+#ik {
+    width: 6em;
+    transform: translate(-3em, -3em);
+}
+
+#content h1 {
+    font-size: 1.5rem;
+    background-color: var(--blauw);
+    border-radius: 1em;
+    margin: 0.5rem 20% 0.5rem 20%;
+    color: var(--wit);
+    padding: 0.1rem;
+    text-align: center;
+}
+
+#content {
+    margin-left: 20em;
+    padding: 1em;
+}
+
+#zatre, #dubplace {
+    width: 80%;
+    margin-left: 10%;
+}
+
+figcaption {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-bottom: 1em;
+}

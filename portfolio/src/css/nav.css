@@ -1,0 +1,27 @@
+div {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+nav > * {
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 20em;
+}
+
+li {
+    list-style-type: none;
+    font-size: 1.5em;
+}

@@ -2,7 +2,6 @@ import '../css/nav.css'
 
 export default () => {
     return (
-
         <div>
         <nav>
             <h1>Henry Vergote</h1>

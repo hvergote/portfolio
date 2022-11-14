@@ -1,0 +1,26 @@
+#sidediv {
+    position: fixed;
+    top: 5em;
+    left: 0;
+    width: 30px;
+    margin: 1em;
+}
+
+#sidelist {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 10em;
+    padding: 0;
+    /* border: 1px solid red; */ 
+}
+
+.icon {
+    fill: rgba(255, 255, 255, 0.87);
+    transition: fill 0.25s;
+}
+
+.icon:hover {
+    fill: #535bf2;
+    transition: fill 0.25s;
+}

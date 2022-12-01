@@ -1,8 +1,17 @@
-div {
+#nav {
     position: fixed;
     top: 0;
     right: 0;
     width: 100%;
+    background-color: #242424;
+    box-shadow: 0 1em 1em #242424;
+}
+
+@media (prefers-color-scheme: light) {
+    #nav {
+        background-color: #ffffff;
+        box-shadow: 0 1em 1em #ffff;
+    }
 }
 
 nav {
@@ -16,13 +25,13 @@ nav > * {
     margin: 0;
 }
 
-ul {
+#navlist {
     display: flex;
     justify-content: space-between;
-    width: 20em;
+    width: 25em;
 }
 
-li {
+#navlist > li {
     list-style-type: none;
     font-size: 1.5em;
 }

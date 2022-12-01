@@ -1,16 +1,13 @@
 #home {
-    height: 100vh;
+    height: 89vh;
     width: 100%;
     z-index: -1;
-    margin-left: 10em;
     display: grid;
     place-items: center;
+    position: inherit;
 }
 
 #homecontent {
-    margin-top: 40vh;
-    margin-right: 50%;
-    transform: translate(50%, 0);
     width: 30em;
 }
 

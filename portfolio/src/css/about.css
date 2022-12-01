@@ -1,0 +1,56 @@
+#about {
+    height: 89vh;
+}
+
+#mij > * {
+    font-weight: 200;
+    width: 80%;
+    margin: auto;
+    line-height: 1.5em;
+}
+
+#mij > p {
+    padding: 1em;
+}
+
+#highlight {
+    color: #F2542D;
+    font-weight: 400;
+}
+
+#mij > p > a {
+    text-decoration: underline solid;
+    text-decoration-thickness: 2px;
+}
+
+/* #opleiding {
+    margin: auto;
+    border: 1em;
+}
+
+#opleiding > tr > td:first-child {
+    width: 20%;
+    text-align: end;
+    right: 0;
+}
+
+#opleiding > tr > td:nth-child(2) {
+    width: 30%;
+    text-align: start;
+}
+
+#opleiding > tr > td:last-child {
+    width: 40%;
+    text-align: start;
+}
+
+
+tr:nth-child(odd) {
+    background-color: #272727;
+}
+
+@media (prefers-color-scheme: light) {
+    tr:nth-child(odd) {
+        background-color: #fff7f5;
+    }
+} */

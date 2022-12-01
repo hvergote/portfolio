@@ -1,11 +1,25 @@
 #root {
-  max-width: 922px;
-  margin: 0 auto;
-  padding: 2rem;
+  width: 100%;
+  padding: 6rem;
   text-align: center;
 }
 
-.App {
-  width: 30px;
-  background-color: red;
+#site {
+  display: grid;
+  gap: 5em;
+}
+
+#scrollbtn {
+  padding: 0;
+  display: grid;
+  place-items: center;
+}
+
+@media (prefers-color-scheme: light) {
+  #scrollbtn {
+    background-color: #242424;
+  }
+  #scrollbtn > svg {
+    fill: #ffffff;
+  }
 }

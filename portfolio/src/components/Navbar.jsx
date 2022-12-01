@@ -2,13 +2,13 @@ import '../css/nav.css'
 
 export default () => {
     return (
-        <div>
+        <div id='nav'>
         <nav>
             <h1>Henry Vergote</h1>
-            <ul>
-                <li><a href="#">About me</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Skills</a></li>
+            <ul id='navlist'>
+                <li class="navItem"><a href="#about">About me</a></li>
+                <li class="navItem"><a href="#">Skills</a></li>
+                <li class="navItem"><a href="#">Contact</a></li>
             </ul>
         </nav>
     </div>

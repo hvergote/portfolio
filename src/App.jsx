@@ -5,6 +5,7 @@ import Home from './components/Home'
 import About from './components/About'
 import ScrollToTop from "react-scroll-to-top";
 import Skills from './components/Skills'
+import Contact from './components/Contact'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Home />
         <About />
         <Skills />
+        <Contact />
       </div>
     </div>
   )

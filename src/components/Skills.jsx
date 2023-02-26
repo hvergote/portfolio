@@ -13,11 +13,14 @@ export default () => {
                 <li>React</li>
                 <li>Vite</li>
                 <li>Node.js</li>
+                <li>.net</li>
                 <li>C#</li>
                 <li>Blazor</li>
-                <li>SQL</li>
+                <li>MySQL</li>
+                <li>SQL Server</li>
                 <li>PostgreSQL</li>
                 <li>MongoDB</li>
+                <li>neo4j</li>
                 <li>Git</li>
             </ul>
         </div>

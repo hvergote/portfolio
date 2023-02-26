@@ -4,6 +4,7 @@ import Sidebar from './components/Sidebar'
 import Home from './components/Home'
 import About from './components/About'
 import ScrollToTop from "react-scroll-to-top";
+import Skills from './components/Skills'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <div>
         <Home />
         <About />
+        <Skills />
       </div>
     </div>
   )

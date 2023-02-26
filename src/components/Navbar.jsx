@@ -7,7 +7,7 @@ export default () => {
             <h1>Henry Vergote</h1>
             <ul id='navlist'>
                 <li class="navItem"><a href="#about">About me</a></li>
-                <li class="navItem"><a href="#">Skills</a></li>
+                <li class="navItem"><a href="#skills">Skills</a></li>
                 <li class="navItem"><a href="#">Contact</a></li>
             </ul>
         </nav>

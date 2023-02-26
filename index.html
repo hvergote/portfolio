@@ -1,73 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Henry Vergote</title>
-    <link rel="stylesheet" media="screen and (min-width: 768px)" href="css/styleWeb.css">
-    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/styleMobile.css">
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-</head>
-
-<body>
-    <div class="grid">
-        <div id="burgirClosed" class="burgir" onclick="burgirClick()">
-            <div id="topline" class="line"></div>
-            <div id="bottomline" class="line"></div>
-        </div>
-        <div class="grid-item" id="fixed-nav">
-            <h1 id="home">Henry Vergote</h1>
-            <nav id="nav">
-                <ul>
-                    <li><a href="#about" onclick="burgirClick()">About me</a></li>
-                    <li><a href="#skills" onclick="burgirClick()">Skills</a></li>
-                    <li><a href="#projects" onclick="burgirClick()">Projects</a></li>
-                    <li><a href="#contact" onclick="burgirClick()">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="grid-item" id="content">
-            
-            <div class="ik"><img src="img/ikGroot.png" alt="picture" id="ik"></div>
-            <!-- <h1>Hello World!</h1> -->
-            <h1 id="about">About me</h1>
-            <div class="aboutgrid">
-                <p>Hi, my name is Henry Vergote. I'm a student developer with a focus on web development. I'm currently studying Applied Computer Science at HoGent.</p>
-            </div>
-
-            <h1 id="skills">Skills</h1>
-            <div class="sectie" id="skillBars">
-                <div class="skill" id="fullBar"><div class="percent" id="html">html</div></div>
-                <div class="skill" id="fullBar"><div class="percent" id="css">css</div></div>
-                <div class="skill" id="fullBar"><div class="percent" id="js">JavaScript</div></div>
-                <div class="skill" id="fullBar"><div class="percent" id="react">React</div></div>
-                <div class="skill" id="fullBar"><div class="percent" id="py">Python</div></div>
-                <div class="skill" id="fullBar"><div class="percent" id="java">Java</div></div>
-                <div class="skill" id="fullBar"><div class="percent" id="sql">SQL</div></div>
-            </div>
-
-            <h1 id="projects">Projects</h1>
-            <img src="img/zatre.png" alt="zatre" id="zatre">
-            <figcaption>Boardgame Zatre made with Java en JavaFX (school project)</figcaption>
-            <a href="https://nifty-swirles-3c1f26.netlify.app/" target="_blank"><img src="img/dubplace.png" alt="dubplace" id="dubplace"></a>
-            <figcaption>React app about music with own API (school project)</figcaption>
-            <h1 id="contact">Contact</h1>
-            <form action="https://formsubmit.co/e1776a5fb3c974cc28e0ab7544bb21ba" method="POST">
-                <label for="name" class="formlabel">Name</label>
-                <input type="text" name="name" id="name" class="forminput">
-                <label for="email" class="formlabel">Email</label>
-                <input type="email" name="email" id="email" class="forminput">
-                <label for="message" class="formlabel">Message</label>
-                <textarea name="message" id="message" cols="30" rows="10" class="forminput"></textarea>
-                <input type="submit" value="Send" id="submit">
-            </form>
-        </div>
-        <footer>
-            <p>&copy; 2022 Henry Vergote</p>
-        </footer>
-        <script src="main.js"></script>
-</body>
-
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

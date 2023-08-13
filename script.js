@@ -1,4 +1,5 @@
 window.onload = function() {
+    document.querySelector('.backToTop').style.display = 'none';
     if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
         loadColorScheme(1);
     } else {

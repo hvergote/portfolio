@@ -1,0 +1,38 @@
+:root {
+    background-color: #242424;
+    color: white;
+    --text: #213547;
+    --tint: #F2542D;
+    --tintdonker: #B23C1F;
+}
+
+.navbar {
+    background-color: #242424;
+    box-shadow: 0 1em 1em #242424;
+}
+
+#contact a {
+    color: var(--tint);
+}
+
+.backToTop > * {
+    background-color: var(--tintdonker);
+}
+
+.backToTop > *:hover {
+    background-color: var(--tint);
+}
+
+#sidelist > li > a {
+    color: white;
+}
+
+.ionicon path {
+    fill: white;
+    transition: ease-in-out 200ms;
+}
+
+.svg-parent:hover .ionicon path {
+    fill: var(--tint);
+    transition: ease-in-out 200ms;
+}

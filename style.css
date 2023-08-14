@@ -22,6 +22,14 @@
   scroll-snap-type: mandatory;
 }
 
+.web-only {
+    display: inline-block;
+}
+
+.mobile-only {
+    display: none;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -55,6 +63,13 @@ h1 {
     font-weight: 700;
     margin: 0;
     padding: 0;
+}
+
+.web-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .navbar {
@@ -162,3 +177,4 @@ svg {
     width: 2em;
     margin-bottom: 2em;
 }
+

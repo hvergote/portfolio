@@ -36,3 +36,13 @@
     fill: var(--tint);
     transition: ease-in-out 200ms;
 }
+
+@media screen and (max-width: 600px) {
+    .navlist {
+        background-color: #24242424;
+    }
+
+    .title {
+        background-color: #242424;
+    }
+}

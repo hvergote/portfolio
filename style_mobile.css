@@ -1,0 +1,140 @@
+@media screen and (max-width: 600px) {
+
+    :root {
+        scroll-padding-top: 3em;
+    }
+
+    *, 
+    #contact > div > div p,
+    #contact > div > div a {
+        font-size: 1rem;
+    }
+
+    .web-only {
+        display: none;
+    }
+
+    .mobile-only {
+        display: inline-block;
+    }
+
+    .navbar {
+        display: inline-block;
+        position: relative;
+    }
+
+    nav {
+        justify-content: start;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .navlist {
+        position: fixed;
+        top: 3em;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        padding-top: 5em;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    }
+    
+    .title {
+        position: fixed;
+        font-size: 1.5em;
+        width: 100%;
+        height: 3rem;
+        padding-top: 1em;
+        top: 0;
+        left: 0;
+        text-align: start;
+        margin-left: 1em;
+        z-index: 999;
+    }
+
+    #sidediv {
+        width: 100%;
+    }
+
+    #sidelist {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-evenly;
+        bottom: 5em;
+        padding: 0;
+    }
+
+    #sidelist > li > a {
+        margin-bottom: 0;
+    }
+
+    .screen {
+        padding-top: 2em;
+    }
+
+    #hamburger {
+        position: fixed;
+        top: 1em;
+        right: 1em;
+        margin: 1em;
+        width: 2em;
+        height: 2em;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        z-index: 9999;
+        cursor: pointer;
+    }
+
+    .line {
+        width: 100%;
+        height: 2px;
+        background-color: white;
+    }
+    
+    .line1, .line2 {
+        height: 2px;
+        width: 2em;
+        background-color: white;
+        z-index: 99999;
+    }
+
+    .line1 {
+        transform: rotate(45deg) translate(0.5em, 0.5em);
+    }
+    
+    .line2 {
+        transform: rotate(-45deg) translate(0.5em, -0.5em);
+    }
+
+    .subtitle {
+        font-size: 2em;
+    }
+
+    #close {
+        position: fixed;
+        top: 2em;
+        right: 1em;
+        margin: 1em;
+        width: 2em;
+        height: 2em;
+        cursor: pointer;
+        /* display: flex; */
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .line {
+        height: 2px;
+        background-color: white;
+    }
+}

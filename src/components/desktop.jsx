@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../assets/css/desktop.css";
 
 export default function Desktop() {
@@ -16,13 +17,18 @@ export default function Desktop() {
             <div className='icon'></div>
             <p>Skills</p>
         </div>
-        <div className="desktop-icon">
-            <div className='icon'></div>
+        <Link to='/contact' className="desktop-icon">
+            <div className='icon'>
+                <img src="/src/assets/images/mail_icon.png" alt="" />
+            </div>
             <p>Contact</p>
-        </div>
+        </Link>
     </div>
     <div className='taskbar'>
         <div className='start'>
+            <div className="img">
+                <img src="/src/assets/images/start_icon.png" alt="" />
+            </div>
             <div className='start-text'>Start</div>
         </div>
     </div>

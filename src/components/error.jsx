@@ -11,8 +11,11 @@ export default function Error() {
 
     return (
         <>
-        <div className="window">
-        <div className="title">Error</div>
+        <div className="window border-style">
+        <div className="title">
+            <p>Error</p>
+            <Link to='/' className="border-style">X</Link>
+        </div>
             <div className="content">
                 <img src="/src/assets/images/error_icon.png" alt="Error icon" />
                 <div className="text">There's nothing to see here!<br/> Click OK to go back</div>

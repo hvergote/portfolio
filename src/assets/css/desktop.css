@@ -9,6 +9,7 @@
     z-index: 1;
 	display: flex;
 	padding: 5px;
+	border-top: 2px solid var(--white);
 }
 
 .start {

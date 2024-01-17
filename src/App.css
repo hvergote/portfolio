@@ -3,11 +3,12 @@
   --white: #ffffff;
   --grey: #c3c3c3;
   --green: #008080;
+  --blue: #000080;
 }
 
 @font-face {
   font-family: "Windows Regular";
-  src: url("/src/assets/Windows\ Regular.ttf") format("truetype");
+  src: url("/src/assets/fonts/Windows\ Regular.ttf") format("truetype");
 }
 
 * {

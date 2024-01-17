@@ -7,7 +7,7 @@ export default function About() {
         <Window title="About me" width={20} height={10} >
             
         </Window>
-        <Desktop />
+        <Desktop title="About me"/>
         </>
     )
 }

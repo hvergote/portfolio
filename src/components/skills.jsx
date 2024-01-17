@@ -7,7 +7,7 @@ export default function Skills() {
         <Window title="Skills" width={20} height={10} >
             
         </Window>
-        <Desktop />
+        <Desktop title="Skills"/>
         </>
     )
 }

@@ -2,24 +2,45 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 3rem;
+    height: 2.5rem;
     background-color: var(--grey);
-    font-size: 1.4em;
+    font-size: 1.1em;
     font-weight: bold;
     z-index: 1;
 	display: flex;
 	padding: 5px;
 	border-top: 2px solid var(--white);
+	gap: 5px;
+}
+
+.taskbar * {
+	font-family: "Windows Bold";
 }
 
 .start {
 	border-top: 2px solid var(--white);
-	border-left: 1px solid var(--white);
+	border-left: 2px solid var(--white);
 	border-right: 2px solid var(--black);
 	border-bottom: 2px solid var(--black);
 	padding-left: 5px;
 	padding-right: 5px;
 	display: flex;
+}
+
+.start-text {
+	place-self: center;
+}
+
+.tab {
+	border-top: 2px solid var(--black);
+	border-left: 2px solid var(--black);
+	border-right: 2px solid var(--white);
+	border-bottom: 2px solid var(--white);
+	padding-left: 5px;
+	padding-right: 5px;
+	display: flex;
+	place-items: center;
+	width: 15rem;
 }
 
 .desktop {
@@ -29,6 +50,7 @@
 	flex-direction: column;
 	height: 100%;
 	max-height: calc(100vh - 3rem);
+	width: 0;
 }
 
 .desktop-icon {
@@ -60,8 +82,8 @@
 }
 
 .img > img {
-	width: 20px;
-	margin: 5px;
+	width: 17px;
+	margin: 4px;
 	margin-left: 0;
 	aspect-ratio: 1/1;
 }

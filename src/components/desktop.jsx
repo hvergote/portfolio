@@ -1,7 +1,12 @@
 import { Link } from "react-router-dom";
 import "../assets/css/desktop.css";
 
-export default function Desktop() {
+export default function Desktop(props) {
+    const { title } = props;
+    let tab = null
+    if (title != null) {
+        tab = <div className='tab'>{title}</div>
+    }
     return (
     <>
     <div className="desktop">
@@ -37,6 +42,7 @@ export default function Desktop() {
             </div>
             <div className='start-text'>Start</div>
         </div>
+        {tab}
     </div>
     </>
     )

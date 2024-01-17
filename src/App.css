@@ -12,6 +12,11 @@
   src: url("/src/assets/fonts/Windows\ Regular.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Windows Bold";
+  src: url("/src/assets/fonts/Retro\ Gaming.ttf") format("truetype");
+}
+
 * {
     margin: 0;
     padding: 0;

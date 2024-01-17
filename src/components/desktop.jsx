@@ -5,18 +5,24 @@ export default function Desktop() {
     return (
     <>
     <div className="desktop">
-        <div className="desktop-icon">
-            <div className='icon'></div>
+        <Link to="home" className="desktop-icon">
+            <div className='icon'>
+                <img src="/src/assets/images/pc_icon.png" alt="" />
+            </div>
             <p>Henry Vergote</p>
-        </div>
-        <div className="desktop-icon">
-            <div className='icon'></div>
+        </Link>
+        <Link to="/about" className="desktop-icon">
+            <div className='icon'>
+                <img src="/src/assets/images/internet_icon.png" alt="" />
+            </div>
             <p>About me</p>
-        </div>
-        <div className="desktop-icon">
-            <div className='icon'></div>
+        </Link>
+        <Link to="/skills" className="desktop-icon">
+            <div className='icon'>
+                <img src="/src/assets/images/skills_icon.png" alt="" />
+            </div>
             <p>Skills</p>
-        </div>
+        </Link>
         <Link to='/contact' className="desktop-icon">
             <div className='icon'>
                 <img src="/src/assets/images/mail_icon.png" alt="" />

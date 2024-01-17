@@ -1,10 +1,10 @@
 import Desktop from "./desktop";
 import Window from "./window";
 
-export default function About() {
+export default function Skills() {
     return (
         <>
-        <Window title="About me" width={20} height={10} >
+        <Window title="Skills me" width={20} height={10} >
             
         </Window>
         <Desktop />

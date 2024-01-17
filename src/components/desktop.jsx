@@ -5,7 +5,7 @@ export default function Desktop() {
     return (
     <>
     <div className="desktop">
-        <Link to="home" className="desktop-icon">
+        <Link to="/home" className="desktop-icon">
             <div className='icon'>
                 <img src="/src/assets/images/pc_icon.png" alt="" />
             </div>

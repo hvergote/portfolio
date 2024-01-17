@@ -12,7 +12,7 @@ export default function Error() {
                     <img src="/src/assets/images/error_icon.png" alt="Error icon" />
                     <div className="text">There's nothing to see here!<br/> Click OK to go back</div>
                 </div>
-                <Link to="/" className="link-btn"><button className="ok-btn"><p>OK</p></button></Link>
+                <Link to="/" className="link-btn pointer"><button className="ok-btn"><p>OK</p></button></Link>
             </>
         </Window>
         <Desktop />

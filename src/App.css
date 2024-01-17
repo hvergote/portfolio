@@ -22,4 +22,5 @@
 
 body {
     background-color: var(--green);
+    cursor: url("/src/assets/images/pointer.png"), auto;
 }

@@ -26,6 +26,12 @@
 .clock {
 	place-self: center;
 	margin-right: 5px;
+	padding-left: 7px;
+	padding-right: 7px;
+	border-top: 2px solid var(--darkgray);
+	border-left: 2px solid var(--darkgray);
+	border-right: 2px solid var(--white);
+	border-bottom: 2px solid var(--white);
 }
 
 .start {
@@ -52,7 +58,7 @@
 	padding-right: 5px;
 	display: flex;
 	place-items: center;
-	width: 15rem;
+	width: 10rem;
 }
 
 .desktop {

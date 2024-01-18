@@ -1,0 +1,47 @@
+.skill {
+    display: flex;
+    place-items: center;
+    user-select: none;
+}
+
+.file-icon {
+    width: 1.2rem;
+    margin: 4px;
+    aspect-ratio: 1/1;
+    /* border: 1px solid var(--blue); */
+    overflow: hidden;
+}
+
+.file-icon > * {
+	width: 190%;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.skill-list {
+    border: none;
+}
+
+.skills {
+    height: 100%;
+    overflow: scroll;
+    scrollbar-color: var(--darkgray) var(--grey);
+    scrollbar-width: 5px;
+    border-top: 1px solid var(--darkgray);
+    border-left: 1px solid var(--darkgray);
+    border-bottom: 1px solid var(--white);
+    border-right: 1px solid var(--white);
+    margin: 1px;
+    background-color: var(--white);
+}
+
+.bottom-text {
+    border-top: 1px solid var(--darkgray);
+    border-left: 1px solid var(--darkgray);
+    border-bottom: 1px solid var(--white);
+    border-right: 1px solid var(--white);
+    margin: 1px;
+    padding-left: 5px;
+}

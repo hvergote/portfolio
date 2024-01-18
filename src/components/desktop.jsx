@@ -6,7 +6,7 @@ export default function Desktop(props) {
     const { title } = props;
     let tab = null
     if (title != null) {
-        tab = <div className='tab'>{title}</div>
+        tab = <div className='tab tiles'>{title}</div>
     }
     const [currentTime, setCurrentTime] = useState(new Date());
 

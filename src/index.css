@@ -33,6 +33,14 @@ body {
   cursor: url("/src/assets/images/Cursor_15.cur"), auto !important;
 }
 
+.tiles {
+	background-image:  
+		repeating-linear-gradient(45deg, var(--grey) 25%, transparent 25%, transparent 75%, var(--grey) 75%, var(--grey)), 
+		repeating-linear-gradient(45deg, var(--grey) 25%, var(--white) 25%, var(--white) 75%, var(--grey) 75%, var(--grey));
+	background-position: 0 0, 1px 1px;
+	background-size: 2px 2px;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;

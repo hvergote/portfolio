@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "../assets/css/desktop.css";
+import { useEffect, useState } from "react";
 
 export default function Desktop(props) {
     const { title } = props;
@@ -7,6 +8,25 @@ export default function Desktop(props) {
     if (title != null) {
         tab = <div className='tab'>{title}</div>
     }
+    const [currentTime, setCurrentTime] = useState(new Date());
+
+    useEffect(() => {
+        const intervalId = setInterval(() => {
+            setCurrentTime(new Date());
+        }, 1000);
+        return () => clearInterval(intervalId);
+    }, [])
+
+    const hours = currentTime.getHours();
+    const minutes = currentTime.getMinutes();
+  
+    const formattedHours = (hours < 10) ? "0" + hours : hours;
+    const formattedMinutes = (minutes < 10) ? "0" + minutes : minutes;
+  
+    const timeString = `${formattedHours}:${formattedMinutes}`;
+  
+  
+
     return (
     <>
     <div className="desktop">
@@ -36,6 +56,7 @@ export default function Desktop(props) {
         </Link>
     </div>
     <div className='taskbar'>
+        <div className="tabs">
         <div className='start'>
             <div className="img">
                 <img src="/src/assets/images/start_icon.png" alt="" />
@@ -43,6 +64,8 @@ export default function Desktop(props) {
             <div className='start-text'>Start</div>
         </div>
         {tab}
+        </div>
+        <div className="clock">{timeString}</div>
     </div>
     </>
     )

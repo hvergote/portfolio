@@ -11,7 +11,7 @@ const skills = [
     "React",
     "Vite",
     "Node.js",
-    ".net",
+    ".NET",
     "C#",
     "Blazor",
     "Spring",
@@ -32,6 +32,15 @@ export default function Skills() {
         <>
         <Window title="Skills" width={30} height={30} >
         <>
+        <div className="menu-bar">
+            <p><span className="u">F</span>ile</p>
+            <p><span className="u">E</span>dit</p>
+            <p><span className="u">V</span>iew</p>
+            <p><span className="u">T</span>ools</p>
+            <p>F<span className="u">o</span>lder</p>
+            <p><span className="u">W</span>indow</p>
+            <p><span className="u">H</span>elp</p>
+        </div>
         <div className="skills">
             <div className="skills-list">
                 {skills.map((skill, index) => {

@@ -20,21 +20,21 @@
 	transform: translate(-50%, -50%);
 }
 
-.skill-list {
+.skills-list {
     border: none;
+    background-color: var(--white);
 }
 
 .skills {
     height: 100%;
     overflow: scroll;
-    scrollbar-color: var(--darkgray) var(--grey);
+    scrollbar-color: var(--grey) var(--white);
     scrollbar-width: 5px;
     border-top: 1px solid var(--darkgray);
     border-left: 1px solid var(--darkgray);
     border-bottom: 1px solid var(--white);
     border-right: 1px solid var(--white);
-    margin: 1px;
-    background-color: var(--white);
+    margin: 2px;
 }
 
 .bottom-text {
@@ -44,4 +44,15 @@
     border-right: 1px solid var(--white);
     margin: 1px;
     padding-left: 5px;
+}
+
+.menu-bar {
+    display: flex;
+    margin: 2px;
+    margin-left: 5px;
+    gap: 1rem;
+}
+
+.u {
+    text-decoration: 1px solid underline;
 }

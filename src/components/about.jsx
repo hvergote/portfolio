@@ -23,7 +23,7 @@ export default function About() {
             <img src="/src/assets/images/henry_vergote.jpeg" alt="picture henry vergote" className="me"/>
             <p>I'm a student at Hogeschool Gent. I'm currently studying for a bachelor's degree in computer science with a specialization in mobile and enterprise development.</p>
             <br/>
-            <p>In my free time I like to enjoy some music or experiment with <a href="https://soundcloud.com/ryverbe" className="music-link">making music</a> myself</p>
+            <p>In my free time I like to enjoy some music or experiment with <a href="https://soundcloud.com/ryverbe" className="music-link">making music</a> myself.</p>
         </div>
         </>
         </Window>

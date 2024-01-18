@@ -105,3 +105,10 @@
 	margin-left: 0;
 	aspect-ratio: 1/1;
 }
+
+.tab-icon {
+    width: 2rem;
+	margin-left: -5px;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+}

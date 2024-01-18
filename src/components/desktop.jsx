@@ -6,7 +6,26 @@ export default function Desktop(props) {
     const { title } = props;
     let tab = null
     if (title != null) {
-        tab = <div className='tab tiles'>{title}</div>
+        let image = ""
+        switch (title) {
+            case "About me":
+                image = "/src/assets/images/internet_icon.png"
+                break;
+            case "Skills":
+                image = "/src/assets/images/skills_icon.png"
+                break;
+            case "Contact":
+                image = "/src/assets/images/mail_icon.png"
+                break;
+            default:
+                image = "/src/assets/images/pc_icon.png"
+                break;
+        }
+
+        tab = <div className='tab tiles'>
+            <img src={`${image}`} alt="" className="tab-icon"/>
+            {title}
+            </div>
     }
     const [currentTime, setCurrentTime] = useState(new Date());
 

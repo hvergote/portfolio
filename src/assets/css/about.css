@@ -22,11 +22,11 @@
         -.5px -.5px 0px .5px var(--darkgray);
 }
 
-.music-link:hover {
+.about-link:hover {
     color: var(--blue)
 }
 
-.music-link {
+.about-link {
     color: rgb(39, 0, 242);
 }
 

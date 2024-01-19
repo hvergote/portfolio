@@ -22,14 +22,6 @@
         -.5px -.5px 0px .5px var(--darkgray);
 }
 
-.about-link:hover {
-    color: var(--blue)
-}
-
-.about-link {
-    color: rgb(39, 0, 242);
-}
-
 .webpage {
     height: 100%;
     border-bottom: 1px solid var(--white);

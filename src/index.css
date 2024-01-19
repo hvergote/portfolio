@@ -71,3 +71,11 @@ body {
 body {
     background-color: var(--green);
 }
+
+a:hover {
+  color: var(--blue)
+}
+
+a {
+  color: rgb(39, 0, 242);
+}

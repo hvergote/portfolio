@@ -7,6 +7,7 @@ import About from './components/about.jsx'
 import Error from './components/error.jsx'
 import Skills from './components/skills.jsx'
 import Home from './components/home.jsx'
+import Contact from './components/contact.jsx'
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: '/skills',
     element: <Skills />,
+  },
+  {
+    path: '/contact',
+    element: <Contact />,
   },
   {
     path: '*',

@@ -132,9 +132,10 @@
 	background-color: var(--darkgray);
 	color: var(--white);
 	font-family: "Windows Bold";
-	writing-mode: sideways-lr;
+	writing-mode: tb;
+	transform: rotate(180deg);
 	text-orientation:mixed;
-	padding: 1px 2px
+	padding: 5px 2px
 }
 
 .start-popup-links {

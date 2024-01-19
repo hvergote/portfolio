@@ -29,7 +29,7 @@ body {
   cursor: url("/src/assets/images/arrow.cur"), auto;
 }
 
-.poiner, a, button {
+.pointer, a, button {
   cursor: url("/src/assets/images/Cursor_15.cur"), auto !important;
 }
 

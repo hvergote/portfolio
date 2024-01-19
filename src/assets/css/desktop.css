@@ -16,6 +16,7 @@
 
 .tabs * {
 	font-family: "Windows Bold";
+	user-select: none;
 }
 
 .tabs {
@@ -111,4 +112,61 @@
 	margin-left: -5px;
     aspect-ratio: 1/1;
     overflow: hidden;
+}
+
+.start-popup {
+	position: absolute;
+	bottom: 2.5rem;
+	left: 2px;
+	width: 15rem;
+	background-color: var(--grey);
+	border-right: 2px solid var(--black);
+	border-bottom: 2px solid var(--black);
+	border-top: 2px solid var(--white);
+	border-left: 2px solid var(--white);
+	z-index: 99;
+	display: flex;
+}
+
+.name {
+	background-color: var(--darkgray);
+	color: var(--white);
+	font-family: "Windows Bold";
+	writing-mode: sideways-lr;
+	text-orientation:mixed;
+	padding: 1px 2px
+}
+
+.start-popup-links {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.start-link {
+	display: flex;
+	place-items: center;
+	padding: 5px;
+	user-select: none;
+}
+
+.start-icon {
+	width: 2rem;
+	margin: 4px;
+	margin-right: 10px;
+	aspect-ratio: 1/1;
+	overflow: hidden;
+}
+
+.start-icon-image {
+	width: 4rem;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.poweroff {
+	border-top: 1px solid var(--white);
+	box-shadow: 0 -1px 0 0 var(--darkgray);
 }

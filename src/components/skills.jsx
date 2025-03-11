@@ -4,17 +4,17 @@ import "../assets/css/skills.css";
 
 const skills = [  
     "Java",
+    "C#",
+    "Python",
     "HTML",
     "CSS",
     "JavaScript",
-    "Python",
-    "React",
-    "Vite",
     "Node.js",
-    ".NET",
-    "C#",
+    "React",
+    "Vue",
     "Blazor",
     "Spring",
+    ".NET",
     "MySQL",
     "SQL Server",
     "PostgreSQL",
@@ -23,7 +23,9 @@ const skills = [
     "Swift",
     "SwiftUI",
     "Kotlin",
-    "Git"
+    "Git",
+    "Terraform",
+    "AWS"
 ]
 
 

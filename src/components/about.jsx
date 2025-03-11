@@ -21,11 +21,11 @@ export default function About() {
         <div className="webpage">
             <p>Hello, my name is Henry Vergote.</p>
             <img src="/src/assets/images/henry_vergote.jpeg" alt="picture henry vergote" className="me"/>
-            <p>I'm a student at Hogeschool Gent. I'm currently studying for a bachelor's degree in computer science with a specialization in mobile and enterprise development.</p>
+            <p>I recently graduated with a bachelor's degree in computer science, specialization in mobile and enterprise development.</p>
+            <p>Currently, I am working at TUI as a junior full stack software engineer.</p>
             <br/>
             <p>In my free time I like to enjoy some music or experiment with <a href="https://soundcloud.com/ryverbe" className="about-link">making music</a> myself.</p>
             <br/>
-            {/* put my linkedin page here */}
             <p>You can visit my LinkedIn page <a href="https://www.linkedin.com/in/henryvergote/" className="about-link">here</a></p>
         </div>
         </>
